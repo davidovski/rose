@@ -87,22 +87,22 @@ static struct {
 };
 /* For controls more akin to normal browsers, use:
 {
-    { CTRL,        KEY(h),          goback             },
-    { CTRL,        KEY(j),          goforward          },
+    { ALT,         KEY(Left),       goback             },
+    { ALT,         KEY(Left),       goforward          },
     { CTRL,        KEY(r),          refresh            },
     { CTRL | SFT,  KEY(R),          refresh_force      },
     { CTRL | SFT,  KEY(H),          back_to_home       },
     { CTRL,        KEY(equal),      zoomin             },
     { CTRL,        KEY(minus),      zoomout            },
     { CTRL,        KEY(0),          zoom_reset         },
-    { CTRL,        KEY(Page_Down),  prev_tab           },
-    { CTRL,        KEY(Page_Up),    next_tab           },
+    { CTRL | SFT,  KEY(Tab),        prev_tab           },
+    { CTRL,        KEY(Tab),        next_tab           },
     { CTRL,        KEY(w),          close_tab          },
     { 0x0,         KEY(F11),        toggle_fullscreen  },
     { CTRL,        KEY(l),          show_searchbar     },
     { CTRL,        KEY(f),          show_finder        },
-    { CTRL,        KEY(n),          finder_next        },
-    { CTRL | SFT,  KEY(N),          finder_prev        },
+    { CTRL,        KEY(g),          finder_next        },
+    { CTRL | SFT,  KEY(g),          finder_prev        },
     { CTRL,        KEY(p),          prettify            },
 
 };
